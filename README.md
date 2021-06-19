@@ -1,1 +1,1 @@
-# poo_algorithms_py
+# Curso Platzi de programación orientada a objetos y algoritmos en Python
