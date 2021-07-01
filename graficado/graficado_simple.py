@@ -6,11 +6,7 @@ fig = figure()
 
 total_vals = int(input('¿Cuántos valores quieres graficar?: '))
 x_vals = list(range(total_vals))
-y_vals = []
-
-for x in x_vals:
-    val = int(input(f'Valor y para {x}: ')) 
-    y_vals.append(val)
+y_vals = [int(input(f'Valor y para {x}: ')) for x in x_vals]
 
 fig.line(x_vals, y_vals, line_width = 2)
 show(fig)
